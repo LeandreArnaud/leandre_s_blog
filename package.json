@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "leandre_s_blog",
-  "author": "",
+  "author": "Léandre Arnaud",
   "keywords": [
     "gatsby"
   ],
@@ -15,10 +15,17 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "^3.6.2",
-    "gatsby-plugin-sass": "^4.6.0",
+    "gatsby": "^3.10.1",
+    "gatsby-plugin-image": "^1.10.1",
+    "gatsby-plugin-sass": "^4.10.0",
+    "gatsby-plugin-sharp": "^3.10.2",
+    "gatsby-source-filesystem": "^3.10.0",
+    "gatsby-transformer-sharp": "^3.10.0",
+    "node-sass": "^6.0.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "sass": "^1.34.1"
+    "react-reveal": "^1.2.2",
+    "react-scroll-parallax": "^2.4.0",
+    "sass": "^1.35.2"
   }
 }

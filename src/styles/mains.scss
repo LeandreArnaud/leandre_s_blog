@@ -29,13 +29,13 @@ body {
     //background-color: lightblue;
     //opacity: 0.5;
     width: 95%;
-    height: 70vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-end;
     position:absolute;
-    padding-bottom: 30vh;
+    //padding-bottom: 30vh;
 }
 
 .homeMenuContainer{
@@ -46,24 +46,33 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    padding-top: 15vh;
+    padding-top: 30vh;
     padding-left: 30vw;
 
 }
 
 h1 {
     font-size: 100px;
-    height: 5px;
-    color: pink;
-    mix-blend-mode: difference;
+    //height: 100%;
+    background-color: yellow;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 5px;
+    //color: pink;
+    //mix-blend-mode: difference;
 }
 
 h3 {
     font-size: 20px;
-    padding-right: 5vw;
+    margin-right: 5vw;
+    margin-top: 0px;
+    background-color: yellow;
+    color: gray;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-img {
+.homeBackgroundImg {
     width: 75vw;
     height: 100vh;
     object-fit: cover;
@@ -76,7 +85,7 @@ ul{
 }
 
 li {
-    font-size: 20px;
+    font-size: 23px;
     background-color: yellow;
     padding-right: 20px;
     padding-left: 20px;
