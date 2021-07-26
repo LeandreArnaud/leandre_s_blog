@@ -13,7 +13,7 @@ const IndexPage = () => (
           className="homeContainer"
           layers={[
               {
-                children: <StaticImage src="../images/background.JPG" alt="background" className="homeBackgroundImg" />,
+                children: <StaticImage src="../images/BASE.jpg" alt="background" className="homeBackgroundImg" />,
                 amount: 0,
               },
               {
@@ -29,11 +29,11 @@ const IndexPage = () => (
               {
                   children: <Fade top cascade>
                               <div className='homeMainTitleContainer'>
-                                <h1>Blablou Bliblou</h1>
+                                <h1>Léandre ARNAUD</h1>
                                 <h3>Creates its little blog</h3>
                               </div>
                             </Fade>,
-                  amount: 0.3,
+                  amount: 0.1,
               },
           ]}
           style={{
